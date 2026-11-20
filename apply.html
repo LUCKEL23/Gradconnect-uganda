@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Applications, tracking and enquiries.">
+  <title>Applications and Contact | Grad Connect Uganda</title>
+  <link rel="icon" href="assets/grad-connect-icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- Header -->
+  <header>
+    <div>
+      <a class="brand" href="index.html"><img src="assets/grad-connect-icon.svg" alt=""><span>Grad Connect <strong>Uganda</strong></span></a>
+      <!-- Navigation -->
+      <details open>
+        <summary>Menu <span aria-hidden="true">&#9662;</span></summary>
+        <nav aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a href="find-jobs.html">Opportunities</a>
+          <a href="profile.html">Graduate</a>
+          <a href="employers.html">Employer</a>
+          <a href="apply.html#contact">Contact Us</a>
+          <a href="about.html">About Us</a>
+        </nav>
+      </details>
+      <img src="assets/vu_logo_header.png" alt="Victoria University Uganda">
+    </div>
+  </header>
+
+  <!-- Main content -->
+  <main id="main" tabindex="-1">
+    <nav class="breadcrumb" aria-label="Breadcrumb"><a href="index.html">Home</a> &rsaquo; Applications and Contact</nav>
+    <!-- Page heading -->
+    <div class="page-head">
+      <p class="eyebrow">Graduate applications and enquiries</p>
+      <h1>Applications &amp; Contact</h1>
+      <p>Find the application, tracking and contact sections.</p>
+    </div>
+
+    <!-- Page links -->
+    <nav class="section-links" aria-label="Application links"><a href="#application">Application</a><a href="#tracking">Tracking</a><a href="#contact">Contact Us</a></nav>
+
+    <!-- Application form -->
+    <section class="section" id="application">
+      <p class="eyebrow">Apply or express interest</p><h2>Application</h2>
+      <p class="selected panel" id="GCU-101"><strong>Selected role:</strong> Community research assistant &middot; GCU-101 &middot; Campus research team</p>
+      <p class="selected panel" id="GCU-102"><strong>Selected role:</strong> Data entry assistant &middot; GCU-102 &middot; Community data project</p>
+      <p class="selected panel" id="GCU-103"><strong>Selected role:</strong> Campus content writer &middot; GCU-103 &middot; Student publication</p>
+      <p class="selected panel" id="GCU-104"><strong>Selected role:</strong> Junior web support helper &middot; GCU-104 &middot; Small organisation</p>
+      <p class="selected panel" id="GCU-105"><strong>Selected role:</strong> Survey enumerator &middot; GCU-105 &middot; Research group</p>
+      <p class="selected panel" id="GCU-106"><strong>Selected role:</strong> Graphic design helper &middot; GCU-106 &middot; Events team</p>
+      <p class="selected panel" id="GCU-107"><strong>Selected role:</strong> Laboratory assistant &middot; GCU-107 &middot; University laboratory</p>
+      <p class="selected panel" id="GCU-108"><strong>Selected role:</strong> Accounts assistant &middot; GCU-108 &middot; Community finance office</p>
+      <p class="selected panel" id="GCU-109"><strong>Selected role:</strong> Community health outreach assistant &middot; GCU-109 &middot; Health outreach team</p>
+      <p class="selected panel" id="GCU-110"><strong>Selected role:</strong> Agriculture extension assistant &middot; GCU-110 &middot; Agricultural training group</p>
+      <p class="default">Choose an <a href="find-jobs.html">opportunity</a> to see its reference here.</p>
+      <p class="meta">Enter the selected reference and title in the form.</p>
+      <form>
+        <div class="fields">
+          <label>Job reference and title <input type="text" name="job" placeholder="GCU-101 — Community research assistant"></label>
+          <label>Full name <input type="text" name="name" autocomplete="name" placeholder="Name"></label>
+          <label>Email address <input type="email" name="email" autocomplete="email" placeholder="name@example.com"></label>
+        </div>
+        <label>Application note <textarea name="message" placeholder="Your interest and relevant skills"></textarea></label>
+        <label>CV or work sample <input type="file" name="cv" accept=".pdf,.doc,.docx"></label>
+        <label><input type="checkbox" name="consent"> I agree to the <a href="privacy.html">privacy policy</a>.</label>
+        <button type="submit" disabled title="Applications are unavailable">Submit application</button>
+      </form>
+    </section>
+
+    <!-- Application tracking -->
+    <section class="section" id="tracking">
+      <p class="eyebrow">Progress</p><h2>Track applications</h2>
+      <div class="table-wrap" role="region" aria-label="Application tracker" tabindex="0">
+        <table><caption>Illustrative application statuses</caption>
+          <thead><tr><th scope="col">Reference</th><th scope="col">Opportunity</th><th scope="col">Status</th></tr></thead>
+          <tbody><tr><td>GCU-101</td><td>Community research assistant</td><td>Saved</td></tr><tr><td>GCU-103</td><td>Campus content writer</td><td>Prepared</td></tr><tr><td>GCU-104</td><td>Junior web support helper</td><td>Under review</td></tr></tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Contact form -->
+    <section class="section" id="contact">
+      <p class="eyebrow">Get in touch</p><h2>Contact Us</h2>
+      <form>
+        <div class="fields">
+          <label>Name <input type="text" name="contact-name" autocomplete="name" placeholder="Name"></label>
+          <label>Email address <input type="email" name="contact-email" autocomplete="email" placeholder="name@example.com"></label>
+          <label>Subject <select name="subject"><option>Choose a subject</option><option>Opportunity</option><option>Application</option><option>Account</option><option>Report a listing</option><option>Other</option></select></label>
+        </div>
+        <label>Message <textarea name="contact-message" placeholder="Your message"></textarea></label>
+        <label><input type="checkbox" name="contact-consent"> I agree to the <a href="privacy.html">privacy policy</a>.</label>
+        <button type="submit" disabled title="Messages are unavailable">Send message</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div>
+      <div class="brand"><img src="assets/grad-connect-icon.svg" alt=""> Grad Connect Uganda</div>
+      <nav aria-label="Footer navigation">
+        <a href="index.html">Home</a>
+        <a href="find-jobs.html">Opportunities</a>
+        <a href="profile.html">Graduate</a>
+        <a href="employers.html">Employer</a>
+        <a href="apply.html">Applications</a>
+        <a href="apply.html#contact">Contact Us</a>
+        <a href="about.html">About Us</a>
+        <a href="career-help.html">Career Help</a>
+        <a href="login.html">Login</a>
+        <a href="register.html">Create account</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="privacy.html#accessibility">Accessibility</a>
+        <a href="about.html#sources">Sources</a>
+        <a href="about.html#sitemap">Sitemap</a>
+      </nav>
+      <ul class="social" aria-label="Social media">
+        <li><img src="assets/social-x.svg" alt="X"> @grad_connect.ug</li>
+        <li><img src="assets/social-instagram.svg" alt="Instagram"> @grad_connect.ug</li>
+        <li><img src="assets/social-tiktok.svg" alt="TikTok"> @grad_connect.ug</li>
+        <li><img src="assets/social-linkedin.svg" alt="LinkedIn"> @grad_connect.ug</li>
+        <li><img src="assets/social-facebook.svg" alt="Facebook"> @grad_connect.ug</li>
+      </ul>
+      <p class="copyright">&copy; 2026 Grad Connect Uganda | Group Three. All rights reserved.</p>
+      <!-- Mobile navigation -->
+      <nav class="mobile-nav" aria-label="Mobile quick links">
+        <a href="index.html">Home</a><a href="find-jobs.html">Search</a><a href="career-help.html">Help</a><a href="employers.html">Employers</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>

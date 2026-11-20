@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Graduate profile, skills and applications.">
+  <title>Graduate Profile | Grad Connect Uganda</title>
+  <link rel="icon" href="assets/grad-connect-icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- Header -->
+  <header>
+    <div>
+      <a class="brand" href="index.html"><img src="assets/grad-connect-icon.svg" alt=""><span>Grad Connect <strong>Uganda</strong></span></a>
+      <!-- Navigation -->
+      <details open>
+        <summary>Menu <span aria-hidden="true">&#9662;</span></summary>
+        <nav aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a href="find-jobs.html">Opportunities</a>
+          <a href="profile.html" aria-current="page">Graduate</a>
+          <a href="employers.html">Employer</a>
+          <a href="apply.html#contact">Contact Us</a>
+          <a href="about.html">About Us</a>
+        </nav>
+      </details>
+      <img src="assets/vu_logo_header.png" alt="Victoria University Uganda">
+    </div>
+  </header>
+
+  <!-- Main content -->
+  <main id="main" tabindex="-1">
+    <nav class="breadcrumb" aria-label="Breadcrumb"><a href="index.html">Home</a> &rsaquo; Graduate Profile</nav>
+    <!-- Page heading -->
+    <div class="page-head">
+      <p class="eyebrow">Graduate section</p>
+      <h1>Graduate profile</h1>
+      <p>Present your qualifications, skills and experience in one place.</p>
+    </div>
+
+    <!-- Page links -->
+    <nav class="section-links" aria-label="Graduate links"><a href="#profile">Profile details</a><a href="apply.html#tracking">Track applications</a><a href="register.html">Create account</a></nav>
+
+    <!-- Profile form -->
+    <section class="section" id="profile">
+      <p class="eyebrow">Your profile</p><h2>Profile details</h2>
+      <form>
+        <div class="fields">
+          <label>Full name <input type="text" name="name" autocomplete="name" placeholder="Name"></label>
+          <label>Programme or qualification <input type="text" name="programme" placeholder="Programme"></label>
+          <label>Location <input type="text" name="location" placeholder="Town or region"></label>
+          <label>Availability <select name="availability"><option>Choose availability</option><option>Full time</option><option>Part time</option><option>Project based</option></select></label>
+          <label>Portfolio link <input type="url" name="portfolio" placeholder="https://example.com"></label>
+          <label>CV or resume <input type="file" name="resume" accept=".pdf,.doc,.docx"></label>
+        </div>
+        <label>Skills summary <textarea name="skills" placeholder="Skills and relevant experience"></textarea></label>
+        <label>Profile image <input type="file" name="photo" accept="image/*"></label>
+        <fieldset><legend>Skills and interests</legend>
+          <label><input type="checkbox" name="research"> Research</label><label><input type="checkbox" name="data"> Data entry</label><label><input type="checkbox" name="writing"> Writing</label><label><input type="checkbox" name="web"> Web support</label><label><input type="checkbox" name="design"> Design</label><label><input type="checkbox" name="fieldwork"> Fieldwork</label><label><input type="checkbox" name="community"> Community projects</label><label><input type="checkbox" name="digital"> Digital skills</label>
+        </fieldset>
+        <fieldset><legend>Preferred work</legend>
+          <label><input type="radio" name="work" value="freelance"> Freelance</label><label><input type="radio" name="work" value="internship"> Internship</label><label><input type="radio" name="work" value="remote"> Remote</label><label><input type="radio" name="work" value="project"> Project based</label>
+        </fieldset>
+        <label><input type="checkbox" name="consent"> I agree to the <a href="privacy.html">privacy policy</a>.</label>
+        <button type="submit" disabled title="Profile saving is unavailable">Save profile</button>
+      </form>
+    </section>
+
+    <!-- Applications -->
+    <section class="section"><h2>Applications</h2><p>Keep your references and application status together.</p><a class="button secondary" href="apply.html#tracking">Track applications</a></section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div>
+      <div class="brand"><img src="assets/grad-connect-icon.svg" alt=""> Grad Connect Uganda</div>
+      <nav aria-label="Footer navigation">
+        <a href="index.html">Home</a>
+        <a href="find-jobs.html">Opportunities</a>
+        <a href="profile.html">Graduate</a>
+        <a href="employers.html">Employer</a>
+        <a href="apply.html">Applications</a>
+        <a href="apply.html#contact">Contact Us</a>
+        <a href="about.html">About Us</a>
+        <a href="career-help.html">Career Help</a>
+        <a href="login.html">Login</a>
+        <a href="register.html">Create account</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="privacy.html#accessibility">Accessibility</a>
+        <a href="about.html#sources">Sources</a>
+        <a href="about.html#sitemap">Sitemap</a>
+      </nav>
+      <ul class="social" aria-label="Social media">
+        <li><img src="assets/social-x.svg" alt="X"> @grad_connect.ug</li>
+        <li><img src="assets/social-instagram.svg" alt="Instagram"> @grad_connect.ug</li>
+        <li><img src="assets/social-tiktok.svg" alt="TikTok"> @grad_connect.ug</li>
+        <li><img src="assets/social-linkedin.svg" alt="LinkedIn"> @grad_connect.ug</li>
+        <li><img src="assets/social-facebook.svg" alt="Facebook"> @grad_connect.ug</li>
+      </ul>
+      <p class="copyright">&copy; 2026 Grad Connect Uganda | Group Three. All rights reserved.</p>
+      <!-- Mobile navigation -->
+      <nav class="mobile-nav" aria-label="Mobile quick links">
+        <a href="index.html">Home</a><a href="find-jobs.html">Search</a><a href="career-help.html">Help</a><a href="employers.html">Employers</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>

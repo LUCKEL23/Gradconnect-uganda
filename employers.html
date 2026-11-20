@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Vacancies, organisation details and applicants.">
+  <title>For Employers | Grad Connect Uganda</title>
+  <link rel="icon" href="assets/grad-connect-icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- Header -->
+  <header>
+    <div>
+      <a class="brand" href="index.html"><img src="assets/grad-connect-icon.svg" alt=""><span>Grad Connect <strong>Uganda</strong></span></a>
+      <!-- Navigation -->
+      <details open>
+        <summary>Menu <span aria-hidden="true">&#9662;</span></summary>
+        <nav aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a href="find-jobs.html">Opportunities</a>
+          <a href="profile.html">Graduate</a>
+          <a href="employers.html" aria-current="page">Employer</a>
+          <a href="apply.html#contact">Contact Us</a>
+          <a href="about.html">About Us</a>
+        </nav>
+      </details>
+      <img src="assets/vu_logo_header.png" alt="Victoria University Uganda">
+    </div>
+  </header>
+
+  <!-- Main content -->
+  <main id="main" tabindex="-1">
+    <nav class="breadcrumb" aria-label="Breadcrumb"><a href="index.html">Home</a> &rsaquo; For Employers</nav>
+    <!-- Page heading -->
+    <div class="page-head">
+      <p class="eyebrow">Employer section</p>
+      <h1>For employers</h1>
+      <p>Describe opportunities and review the information needed to connect with graduates.</p>
+    </div>
+
+    <!-- Page links -->
+    <nav class="section-links" aria-label="Employer links"><a href="#vacancy">Post a vacancy</a><a href="#listings">Listings</a><a href="#organisation">Organisation</a><a href="#applicants">Applicants</a></nav>
+
+    <!-- Vacancy form -->
+    <section class="section" id="vacancy">
+      <p class="eyebrow">Recruitment</p><h2>Post a vacancy</h2>
+      <form>
+        <div class="fields">
+          <label>Organisation name <input type="text" name="organisation" placeholder="Organisation"></label>
+          <label>Contact email <input type="email" name="email" placeholder="name@example.com"></label>
+          <label>Job title <input type="text" name="job-title" placeholder="Job title"></label>
+          <label>Field <select name="field">
+            <option>Choose a field</option>
+            <option>Research</option>
+            <option>Data and ICT</option>
+            <option>Media and Writing</option>
+            <option>Web and IT</option>
+            <option>Fieldwork and Surveys</option>
+            <option>Creative and Design</option>
+            <option>Science and Laboratory</option>
+            <option>Finance and Accounts</option>
+            <option>Health and Community</option>
+            <option>Agriculture and Environment</option>
+          </select></label>
+          <label>Work type <select name="type"><option>Choose a type</option><option>Freelance</option><option>Internship</option><option>Part time</option><option>Remote</option></select></label>
+          <label>Location <input type="text" name="location" placeholder="Town, region or remote"></label>
+          <label>Payment or stipend <input type="text" name="payment" placeholder="Amount and period"></label>
+          <label>Closing date <input type="date" name="closing"></label>
+        </div>
+        <label>Requirements and deliverables <textarea name="requirements" placeholder="Skills, responsibilities and expected work"></textarea></label>
+        <fieldset><legend>Application materials</legend><label><input type="checkbox" name="cv"> CV or profile</label><label><input type="checkbox" name="portfolio"> Portfolio</label><label><input type="checkbox" name="cover-note"> Cover note</label></fieldset>
+        <label><input type="checkbox" name="verify"> I confirm the details are accurate and agree to the <a href="privacy.html">privacy policy</a>.</label>
+        <button type="submit" disabled title="Vacancy posting is unavailable">Submit vacancy for review</button>
+      </form>
+    </section>
+
+    <!-- Listings -->
+    <section class="section" id="listings">
+      <h2>Manage listings</h2>
+      <div class="table-wrap" role="region" aria-label="Listings" tabindex="0">
+        <table><caption>Illustrative listing</caption><thead><tr><th scope="col">Reference</th><th scope="col">Role</th><th scope="col">Status</th></tr></thead><tbody><tr><td>GCU-101</td><td>Community research assistant</td><td>Draft</td></tr></tbody></table>
+      </div>
+    </section>
+
+    <!-- Organisation form -->
+    <section class="section" id="organisation">
+      <h2>Organisation profile</h2>
+      <form>
+        <div class="fields">
+          <label>Organisation name <input type="text" name="org-name" placeholder="Organisation"></label>
+          <label>Contact person <input type="text" name="contact" placeholder="Name"></label>
+          <label>Work email <input type="email" name="org-email" placeholder="name@example.com"></label>
+          <label>Telephone <input type="tel" name="phone" placeholder="Telephone"></label>
+          <label>Organisation type <select name="org-type"><option>Choose a type</option><option>Company</option><option>Non-governmental organisation</option><option>Public institution</option><option>Start-up</option><option>Other</option></select></label>
+          <label>Organisation image <input type="file" name="logo" accept="image/*"></label>
+        </div>
+        <label>About the organisation <textarea name="about" placeholder="Organisation and address"></textarea></label>
+        <button type="submit" disabled title="Profile saving is unavailable">Save organisation profile</button>
+      </form>
+    </section>
+
+    <!-- Applicants -->
+    <section class="section" id="applicants">
+      <h2>View applicants</h2>
+      <div class="table-wrap" role="region" aria-label="Applicants" tabindex="0">
+        <table><caption>Illustrative applicants</caption><thead><tr><th scope="col">Reference</th><th scope="col">Applicant</th><th scope="col">Status</th><th scope="col">Shortlist</th></tr></thead>
+          <tbody><tr><td>GCU-101</td><td>Graduate A</td><td>New</td><td><label><span class="visually-hidden">Shortlist Graduate A</span><input type="checkbox" name="shortlist-a"></label></td></tr><tr><td>GCU-103</td><td>Graduate B</td><td>Reviewed</td><td><label><span class="visually-hidden">Shortlist Graduate B</span><input type="checkbox" name="shortlist-b"></label></td></tr></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div>
+      <div class="brand"><img src="assets/grad-connect-icon.svg" alt=""> Grad Connect Uganda</div>
+      <nav aria-label="Footer navigation">
+        <a href="index.html">Home</a>
+        <a href="find-jobs.html">Opportunities</a>
+        <a href="profile.html">Graduate</a>
+        <a href="employers.html">Employer</a>
+        <a href="apply.html">Applications</a>
+        <a href="apply.html#contact">Contact Us</a>
+        <a href="about.html">About Us</a>
+        <a href="career-help.html">Career Help</a>
+        <a href="login.html">Login</a>
+        <a href="register.html">Create account</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="privacy.html#accessibility">Accessibility</a>
+        <a href="about.html#sources">Sources</a>
+        <a href="about.html#sitemap">Sitemap</a>
+      </nav>
+      <ul class="social" aria-label="Social media">
+        <li><img src="assets/social-x.svg" alt="X"> @grad_connect.ug</li>
+        <li><img src="assets/social-instagram.svg" alt="Instagram"> @grad_connect.ug</li>
+        <li><img src="assets/social-tiktok.svg" alt="TikTok"> @grad_connect.ug</li>
+        <li><img src="assets/social-linkedin.svg" alt="LinkedIn"> @grad_connect.ug</li>
+        <li><img src="assets/social-facebook.svg" alt="Facebook"> @grad_connect.ug</li>
+      </ul>
+      <p class="copyright">&copy; 2026 Grad Connect Uganda | Group Three. All rights reserved.</p>
+      <!-- Mobile navigation -->
+      <nav class="mobile-nav" aria-label="Mobile quick links">
+        <a href="index.html">Home</a><a href="find-jobs.html">Search</a><a href="career-help.html">Help</a><a href="employers.html">Employers</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
